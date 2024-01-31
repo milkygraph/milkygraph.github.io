@@ -1,0 +1,28 @@
+html {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; /* This ensures that the content takes at least the full viewport height */
+    padding-top: 5rem; /* This ensures that the content is below the header */
+    margin: 0;
+    background-color: #2D3B3B;
+    font-family: 'Roboto Mono';
+    font-size: 1.5em;
+    box-sizing: border-box; /* Include padding and border in the element's total width and height */
+}
+
+main {
+    flex: 1;
+}
+
+h1, h2, h3, h4, h5, h6, p, a{
+    color: #ffffff;
+}
+
+a {
+    text-decoration: none;
+}
