@@ -10,9 +10,14 @@ body {
     padding-top: 5rem; /* This ensures that the content is below the header */
     margin: 0;
     background-color: #2D3B3B;
-    font-family: 'Roboto Mono';
+    font-family: 'Roboto', sans-serif;
     font-size: 1.5em;
     box-sizing: border-box; /* Include padding and border in the element's total width and height */
+}
+
+::selection {
+    background-color: #8ea08a;
+    color: #ffffff;
 }
 
 main {
@@ -24,6 +29,7 @@ main {
     flex-direction: column;
     margin-right: 20%;
     margin-left: 20%;
+    margin-bottom: 20px;
 
     @media (max-width: 768px) {
         flex-direction: column;

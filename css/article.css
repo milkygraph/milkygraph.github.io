@@ -1,7 +1,11 @@
+.article {
+    font-size: 1.5rem;
+}
+
 .article-details {
     display: flex;
     flex-direction: row;
-    font-size: 0.8em;
+    font-size: 14px;
 }
 
 .article-details p {
@@ -10,6 +14,7 @@
 
 .contents-list {
     position: fixed;
+    margin-top: 10px;
     padding-left: 20px;
     padding-right: 20px;
     font-size: 1rem;
@@ -21,8 +26,11 @@
     width: 15%;
 }
 
-.contents-list ul, li {
+.contents-list ul {
     padding-left: 10%;
+}
+
+.contents-list ul li {
     color: white;
 }
 
@@ -34,4 +42,14 @@
 .sub-content {
     list-style-type: none;
     padding-left: 10px;
+}
+
+.article a {
+    background-color: #556D5B;
+    color: white;
+}
+
+.article li {
+    padding-left: 0;
+    color: white;
 }
