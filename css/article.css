@@ -1,5 +1,7 @@
 .article {
     font-size: 1.5rem;
+    padding-left: 20px;
+    padding-right: 20px;
 }
 
 .article-details {
@@ -24,6 +26,12 @@
     top: 5rem;
     left: 1.5rem;
     width: 15%;
+}
+
+.contents-list {
+    @media (max-width: 1200px) {
+        display: none;
+    }
 }
 
 .contents-list ul {
