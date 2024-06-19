@@ -25,6 +25,21 @@ main {
     flex: 1;
 }
 
+pre {
+    font-family: 'Roboto', monospace;
+    color: #ffffff;
+    background-color: #839788;
+    border-radius: 8px;
+    padding: 10px;
+    overflow-x: auto;
+}
+
+code {
+    font-family: 'Roboto', monospace;
+    color: #ffffff;
+    border-radius: 5px;
+}
+
 .wrapper {
     display: flex;
     flex-direction: column;
